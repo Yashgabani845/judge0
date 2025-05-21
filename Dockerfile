@@ -1,5 +1,5 @@
-# Use official Judge0 image
-FROM judge0/api:1.13.0
+# Use the official Judge0 image from Docker Hub
+FROM judge0/api:latest
 
-# Expose the Judge0 API port
+# Expose Judge0 API port
 EXPOSE 2358
